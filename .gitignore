@@ -1,0 +1,25 @@
+.env
+.env.*
+!.env.example
+
+__pycache__/
+*.pyc
+
+node_modules/
+dist/
+build/
+.venv/
+
+.vscode/
+
+*.log
+
+# Firebase service-account keys
+serviceAccountKey.json
+*firebase-adminsdk*.json
+
+# Participant personal data and admin credentials (keep local only)
+Participant_details/
+ctrl-alt-escape/data/*.xlsx
+ctrl-alt-escape/data/event.db*
+admin.md
